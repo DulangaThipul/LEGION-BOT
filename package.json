@@ -1,0 +1,36 @@
+{
+  "name": "LEGION BOT",
+  "version": "2.6.1",
+  "description": "This WhatsApp BOT using LEGION Core Engine...",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name LEGION BOT",
+    "stop": "pm2 stop LEGION BOT",
+    "restart": "pm2 restart LEGION BOT"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "api-dylux": "^1.8.6",
+    "axios": "^1.19.0",
+    "browser-id3-writer": "^6.3.2",
+    "cheerio": "^1.2.0",
+    "express": "latest",
+    "ffmpeg": "^9.0.1",
+    "ffmpeg-static": "^5.3.0",
+    "file_size_url": "^1.0.5-1",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.4.0",
+    "megajs": "^1.3.10",
+    "node-fetch": "^3.3.2",
+    "node-id3": "^0.2.9",
+    "node-webpmux": "^3.2.1",
+    "path": "^0.12.7",
+    "pino": "^10.3.1",
+    "pm2": "^7.0.3",
+    "punycode": "^2.3.1",
+    "qrcode-terminal": "^0.12.0",
+    "tmp": "^0.2.7",
+    "util": "^0.12.5",
+    "vm": "^0.1.0"
+  }
+}
