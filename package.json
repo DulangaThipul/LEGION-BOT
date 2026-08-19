@@ -9,7 +9,7 @@
     "restart": "pm2 restart LEGION BOT"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "@whiskeysockets/baileys": "^7.0.0",
     "api-dylux": "^1.8.6",
     "axios": "^1.19.0",
     "browser-id3-writer": "^6.3.2",
